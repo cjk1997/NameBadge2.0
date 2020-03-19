@@ -1,8 +1,16 @@
 const name = document.getElementById("name");
 
-const btnClicked = (event) => {
-    theName.innerHTML = name.value
-    // name.value = "";
-}
+const input = localStorage.setItem("theName", "name");
 
-name.addEventListener("click", btnClicked);
+const theName = localStorage.getItem("theName");
+
+
+// const name = document.getElementById("name");
+
+// const btnClicked = (event) => {
+//     theName.innerHTML = name.value
+//     // name.value = "";
+//     localStorage.setItem()
+// }
+
+// name.addEventListener("click", btnClicked);
