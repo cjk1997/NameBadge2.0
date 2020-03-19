@@ -1,3 +1,14 @@
+#label {
+    color: #ffffff;
+}
+#input {
+    color: #ffffff;
+}
+#submit {
+    background-color: gray;
+    color: #ffffff;
+
+}
 .nameBadge {
     position: relative;
     top: 75px;
@@ -11,7 +22,7 @@
     height: 350px;
     box-align: center;
 }
-.Hello {
+.hello {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 75px;
     font-weight: bold;
@@ -37,7 +48,7 @@
     font-family: permanentMarker;
     src: url(PermanentMarker.ttf)
 }
-#theName {
+.name {
     line-height: 200px;
     font-family: permanentMarker;
     font-size: 85px;
