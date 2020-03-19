@@ -6,7 +6,7 @@
     background: #F00;
     background-color: #F00;
     padding-bottom: 20px;
-    position: realtive;
+    position: relative;
     width: 450px;
     height: 350px;
     box-align: center;
@@ -37,7 +37,7 @@
     font-family: permanentMarker;
     src: url(PermanentMarker.ttf)
 }
-.myName {
+#theName {
     line-height: 200px;
     font-family: permanentMarker;
     font-size: 85px;
