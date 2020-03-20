@@ -1,3 +1,5 @@
+// Button function //
+
 console.log("And your name was?");
 
 const submit = document.getElementById("submit");

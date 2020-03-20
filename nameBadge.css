@@ -1,3 +1,5 @@
+/* Name Badge Styling */
+
 #label {
     color: #000000;
 }
@@ -55,7 +57,7 @@
     src: url(PermanentMarker.ttf)
 }
 #name {
-    line-height: 200px;
+    line-height: 190px;
     font-family: permanentMarker;
     font-size: 80px;
     color: #000000;
