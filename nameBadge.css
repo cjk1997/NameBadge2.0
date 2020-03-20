@@ -9,7 +9,7 @@
     color: #000000;
 
 }
-.nameBadge {
+#nameBadge {
     margin: 20px;
     position: absolute;
     margin: 0 auto;
@@ -22,7 +22,7 @@
     box-align: center;
     z-index: 1;
 }
-.hello {
+#hello {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 75px;
     font-weight: bold;
@@ -36,7 +36,7 @@
     margin-top: 25px;
     z-index: 3;
 }
-.myNameIs {
+#myNameIs {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 55px;
     border: none;
@@ -54,10 +54,10 @@
     font-family: permanentMarker;
     src: url(PermanentMarker.ttf)
 }
-.name {
+#name {
     line-height: 200px;
     font-family: permanentMarker;
-    font-size: 85px;
+    font-size: 80px;
     color: #000000;
     width: 440px;
     height: 200px;
