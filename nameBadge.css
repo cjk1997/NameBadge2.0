@@ -1,26 +1,26 @@
 #label {
-    color: #ffffff;
+    color: #000000;
 }
 #input {
-    color: #ffffff;
+    color: #808088;
 }
 #submit {
-    background-color: gray;
-    color: #ffffff;
+    background-color: #808088;
+    color: #000000;
 
 }
 .nameBadge {
-    position: relative;
-    top: 75px;
-    border-radius: 20px;
-    border: 1px solid #F00;
+    margin: 20px;
+    position: absolute;
+    margin: 0 auto;
     background: #F00;
-    background-color: #F00;
-    padding-bottom: 20px;
-    position: relative;
+    border: 1px solid #F00;
+    border-radius: 20px;
     width: 450px;
     height: 350px;
+    margin-top: 30px;
     box-align: center;
+    z-index: 1;
 }
 .hello {
     font-family: Arial, Helvetica, sans-serif;
@@ -28,10 +28,13 @@
     font-weight: bold;
     border: none;
     color: #ffffff;
+    position: absolute;
+    box-align: top;
     text-align: center;
     width: 450px;
     height: 50px;
-    box-align: top;
+    margin-top: 25px;
+    z-index: 3;
 }
 .myNameIs {
     font-family: Arial, Helvetica, sans-serif;
@@ -43,6 +46,9 @@
     width: 450px;
     height: 55px;
     box-align: top;
+    position: absolute;
+    margin-top: 75px;
+    z-index: 4;
 }
 @font-face {
     font-family: permanentMarker;
@@ -56,6 +62,8 @@
     height: 200px;
     border: 5px solid #F00;
     background-color: #ffffff;
-    margin-top: 25px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 155px;
     text-align: center;
 }
